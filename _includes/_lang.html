@@ -6,7 +6,7 @@
 <script>
   Object.defineProperty(window, "lang", {
     set (lang) {
-      let body = document.getElementsByTagName('body')[0]
+      let body = document.querySelector('body')
       body.classList.remove('en', 'zh')
       body.classList.add(lang)
 
@@ -17,5 +17,7 @@
   })
 
   let match = /lang=(\w+)/.exec(window.location.search)
-  lang = match === null ? 'en' : match[1]
+  lang = match
+    ? (match[1] === 'zh' ? 'zh' : 'en')
+    : /zh/.test(navigator.language) ? 'zh' : 'en'
 </script>
