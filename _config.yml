@@ -1,0 +1,16 @@
+# Site settings
+title: Aidi Tan
+email: aidistan@outlook.com
+description: >-
+  To experience, to share, and to innovate
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
