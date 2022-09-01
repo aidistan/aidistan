@@ -1,5 +1,5 @@
-source 'https://gems.ruby-china.com'
+source 'https://rubygems.org'
 
-ruby '2.7.4'
+ruby '2.7.6'
 
 gem 'github-pages'

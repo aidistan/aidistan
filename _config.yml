@@ -1,12 +1,10 @@
-# Site settings
+# Infos
 title: Aidi Tan
 email: aidistan@outlook.com
 description: >-
   To experience, to share, and to innovate
-baseurl: ""
-url: ""
 
-# Build settings
+# Building
 markdown: kramdown
 exclude:
   - CNAME
